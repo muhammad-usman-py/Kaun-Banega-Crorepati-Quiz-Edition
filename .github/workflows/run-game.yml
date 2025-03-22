@@ -1,0 +1,27 @@
+name: Run KBC Quiz
+on: [push, pull_request]
+
+jobs:
+  run-cli-version:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+        
+    - name: Run CLI Version
+      run: python main.py <<< "b c d b d a"  # Simulate user input
+      
+  run-gui-tests:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install Xvfb (Virtual Display)
+      run: sudo apt-get install xvfb
+      
+    - name: Run GUI Version
+      run: |
+        xvfb-run -a python kbc_gui.py
