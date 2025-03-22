@@ -2,7 +2,7 @@
 
 A simple Python CLI quiz game inspired by the popular Indian TV show, featuring basic question/answer functionality and humorous responses.
 
-![CLI Quiz Demo](https://via.placeholder.com/600x400?text=CLI+Quiz+Demo)
+[![Open in GitHub](https://img.shields.io/badge/View%20on-GitHub-blue?logo=github)](https://github.com/muhammad-usman-py/Kaun-Banega-Crorepati-Quiz-Edition)
 
 ## Features ✨
 
