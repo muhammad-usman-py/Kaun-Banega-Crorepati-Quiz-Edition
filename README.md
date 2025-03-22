@@ -27,15 +27,48 @@ A simple Python CLI quiz game inspired by the popular Indian TV show, featuring 
 - Some answers correct: ₹1 Crore
 - All answers wrong: Humorous consolation message!
 
+### I. Just Want to See the Output?
+**Preview the game without installing anything:**  
+1. [View CLI Version Demo](https://github.com/muhammad-usman-py/Kaun-Banega-Crorepati-Quiz-Edition/blob/main/main.py)  
+2. [View GUI Version Demo](https://github.com/muhammad-usman-py/Kaun-Banega-Crorepati-Quiz-Edition/blob/main/kbc_gui.py)  
+3. Sample Gameplay:  
+   ![CLI Demo](https://i.imgur.com/5GJ4Z8P.png)  
+   ![GUI Demo](https://i.imgur.com/BiN8E9G.png)
+
+---
+
+### II. Want to Run It Yourself?
+
+#### **Requirements**  
+- Any computer (Windows/Mac/Linux)  
+- Python 3.6+ ([Download Python](https://www.python.org/downloads/))  
+
+#### **Step-by-Step Guide**  
+
+1. **Get the Code**  
+   - Click the green "Code" button → "Download ZIP"  
+   - Extract the ZIP file anywhere on your computer  
+
+2. **Choose Your Version**  
+
+   **🖥️ CLI Version (Command Line)**  
+   ```bash
+   # Windows
+   python main.py
+
+   # Mac/Linux
+   python3 main.py
+
+
 ## Code Structure 📚
 
-```plaintext
-main.py
-├── Questions list (6 items)
-├── Sequential question display
-├── Input validation
-├── Answer checking
-└── Final prize calculation
+  ```plaintext
+    main.py
+    ├── Questions list (6 items)
+    ├── Sequential question display
+    ├── Input validation
+    ├── Answer checking
+    └── Final prize calculation
 
 
 
@@ -44,3 +77,37 @@ a) Abraham Lincoln
 b) George Washington
 c) John F. Kennedy
 d) Thomas Jefferson
+
+## 🚀 For New Users
+
+### I. Just Want to See the Output?
+**Preview the game without installing anything:**  
+1. [View CLI Version Demo](https://github.com/muhammad-usman-py/Kaun-Banega-Crorepati-Quiz-Edition/blob/main/main.py)  
+2. [View GUI Version Demo](https://github.com/muhammad-usman-py/Kaun-Banega-Crorepati-Quiz-Edition/blob/main/kbc_gui.py)  
+3. Sample Gameplay:  
+   ![CLI Demo](https://i.imgur.com/5GJ4Z8P.png)  
+   ![GUI Demo](https://i.imgur.com/BiN8E9G.png)
+
+---
+
+### II. Want to Run It Yourself?
+
+#### **Requirements**  
+- Any computer (Windows/Mac/Linux)  
+- Python 3.6+ ([Download Python](https://www.python.org/downloads/))  
+
+#### **Step-by-Step Guide**  
+
+1. **Get the Code**  
+   - Click the green "Code" button → "Download ZIP"  
+   - Extract the ZIP file anywhere on your computer  
+
+2. **Choose Your Version**  
+
+   **🖥️ CLI Version (Command Line)**  
+   ```bash
+   # Windows
+   python main.py
+
+   # Mac/Linux
+   python3 main.py
